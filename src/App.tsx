@@ -14,10 +14,10 @@ const CONTRACT_ABI = [
   "event OwnershipTransferred(uint256 indexed assetId, address indexed from, address indexed to)"
 ];
 
-// ✅ Replace with your deployed contract address
-const CONTRACT_ADDRESS = "0xcbf9ffdca6e9a6b74cd43b971e817e55647d4e6e";
+//  Replace with your deployed contract address
+const CONTRACT_ADDRESS = "CONTRACT_ADDRESS_HERE";
 
-// ✅ Declare global Ethereum provider type
+//  Declare global Ethereum provider type
 declare global {
   interface Window {
     ethereum?: any;
